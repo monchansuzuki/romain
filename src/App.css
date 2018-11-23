@@ -18,15 +18,21 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+*{
+  margin: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.select{
+  width: 70vw;
+  margin: 2%;
+    background-color: white;
+    border-radius: 4px;
+}
+.video{
+    width: 100vw !important;
+}
+h1 , h2,span{
+    color: white;
+}
+.input{
+    color: white;
 }
