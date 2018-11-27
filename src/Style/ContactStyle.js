@@ -15,7 +15,6 @@ export const Btn = styled(Button)`
 export const ContactContainer = styled.section`
     background-image: url(${BG});
     height: 90vh;
-    padding-top: 10vh;
     background-size: cover;
     background-position-y: center;
     background-position: center;   

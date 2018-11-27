@@ -3,7 +3,6 @@ import Bg from '../img/about-me-bg.png'
 
 export const AboutContainer = styled.section`
     background-image: url(${Bg});
-    padding-top: 10vh;
     height: 90vh;
     background-size: cover;
     background-position: center;
@@ -15,7 +14,6 @@ export const AboutContainer = styled.section`
     align-items: center;
     position: relative;
     @media only screen and (min-width: 1280px){
-    padding-top: 12vh;
     }
     `
 

@@ -5,7 +5,7 @@ import {Image,Transformation} from 'cloudinary-react'
 
 
 const GalleryContainer = styled.div`
-    background-color: #E9F2F1;
+    background-color: rgba(246,255,254,0);
     flex-grow: 2;
     display: flex;
     flex-direction: row;

@@ -9,9 +9,8 @@ const Nav = styled.footer`
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: black;
+    background-color: grey;
     position: relative;
-    top: 10vh;
     z-index: -1;
 
 @media only screen and (min-width: 1280px){
