@@ -19,7 +19,6 @@ export const AboutContainer = styled.section`
 
 export const Box = styled.div`
     background-color: rgba(0,0,0,0.8);
-    height: 80vh;
     width: 95vw;
     border-radius: 4px;
     display: flex;
@@ -33,12 +32,14 @@ export const Box = styled.div`
 `
 
 export const Logo= styled.span`
-    position: absolute;
-    top: 10vh;
     display: flex;
     align-items: center;
     right: 5vw;
     cursor: pointer;
+    width: 80vw;
+    justify-content: flex-end;
+    margin-bottom: 2vh;
+    
     @media only screen and (min-width: 1280px){
     top: 20vh;
     right: 25vw;
