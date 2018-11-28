@@ -15,7 +15,7 @@ export const Banner = styled.section`
     background-image: url(${BannerBG});
     background-position: center;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: white;
     background-size: contain;
     height: 90vh;
     overflow: auto;

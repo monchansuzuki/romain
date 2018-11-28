@@ -25,7 +25,7 @@ export const ContactContainer = styled.section`
     @media only screen and (min-width: 1280px){
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: white;
     }
 
 `
