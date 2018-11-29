@@ -63,6 +63,8 @@ export const Title = styled.h2`
     background-color: black;
     width: 70%;
     border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     `
 
 export const Line = styled.div`
