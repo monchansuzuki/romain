@@ -27,9 +27,9 @@ const Nav = styled.footer`
 const Social = () => {
     return (
         <Nav>
-            <a><img src={FB}/></a>
-            <a><img src={Insta}/></a>
-            <a><img src={SC}/></a>
+            <a><img src={FB} className='social'/></a>
+            <a><img src={Insta} className='social'/></a>
+            <a><img src={SC} className='social'/></a>
         </Nav>
     );
 };

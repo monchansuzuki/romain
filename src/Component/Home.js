@@ -1,19 +1,37 @@
 import React from 'react';
-import {Banner , WelcomText} from '../Style/Home'
+import {Banner , WelcomText, Langue} from '../Style/Home'
 import Footer from './Social'
+import {connect} from 'react-redux'
+import Jap from "../img/japan.png";
+import Eng from "../img/uk.png";
 
-const Home = () => {
+const Home = (props) => {
     return (
         <div>
-        <Banner>
-            <WelcomText>
-                Welcome, here you will see my work as a profesionel model , actor and even music composer. Feel free to contact me.
-            </WelcomText>
 
+            {props.Langue.isEng?(
+                <Langue onClick={props.Toogle}><img src={Jap}/> 日本語</Langue>
+            ):(
+                <Langue onClick={props.Toogle}><img src={Eng}/>English</Langue>
+            )}
+        <Banner>
+            <WelcomText>{props.Langue.isEng?(props.Langue.homeEnglishText):(props.Langue.homeJapText)}</WelcomText>
         </Banner>
             <Footer/>
         </div>
     );
 };
+const mapStateToProps = (state)=>{
+    return{
+        Langue : state.MusicReducer
+    }
+}
 
-export default Home;
+const mapDispatchToProps = (dispatch) => {
+    return{
+        Toogle : ()=>{dispatch(
+            { type: 'CHANGE_LANGUAGE'}
+        )}
+    }
+}
+export default connect(mapStateToProps,mapDispatchToProps)(Home);

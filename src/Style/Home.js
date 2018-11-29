@@ -6,13 +6,16 @@ export const Banner = styled.section`
     background-image: url(${ImageTab});
     position: relative;
     width: 100vw;
-    height: 80vh;
+    height: 70vh;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
     @media only screen and (min-width: 1280px){
     background-image: url(${ImageDesk});
+        background-size: contain;
+        
+
     }
     `
 
@@ -37,4 +40,20 @@ export const WelcomText = styled.p`
       border-radius: 5px;
       }
  
+    `
+
+export const Langue = styled.span`
+    color: black;
+    display: flex;
+    align-content: center;
+    height: 5vh;
+    width: 90vw;
+    justify-content: flex-end;
+    cursor: pointer;
+    :hover{
+    color: gold;
+    }
+        @media only screen and (min-width: 1280px){
+        margin-top: 5vh;
+}
     `

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import bg from '../img/bg-music.jpg'
 
 export const MusicContainer = styled.section`
-        padding-top: 10vh;
+        padding-top: 1vh;
         background-image: url(${bg});
         background-position: center;
         background-size: cover;
@@ -18,7 +18,6 @@ export const MusicContainer = styled.section`
 
 export const Box = styled.div`
     background: rgba(0, 0, 0, 0.6);
-    height: 75vh;
     display: flex;
     width: 90vw;
     border-radius: 4px;

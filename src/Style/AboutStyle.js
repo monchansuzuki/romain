@@ -3,7 +3,7 @@ import Bg from '../img/about-me-bg.png'
 
 export const AboutContainer = styled.section`
     background-image: url(${Bg});
-    height: 90vh;
+    padding: 5% 0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

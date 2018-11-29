@@ -8,6 +8,7 @@ import {ModelImageReducer} from './Reducer/ModelCatalagueReducer'
 import {VideoReducer} from './Reducer/VideoActorReducer'
 import {LanguageReducer} from './Reducer/AboutReducer'
 import {ContactReducer} from './Reducer/ContactReducer'
+import {MusicReducer} from './Reducer/MusicReducer'
 
 
 
@@ -18,7 +19,8 @@ const reducer = combineReducers(
         ModelImageReducer : ModelImageReducer,
         VideoReducer : VideoReducer ,
         LanguageReducer : LanguageReducer,
-        ContactReducer : ContactReducer
+        ContactReducer : ContactReducer,
+        MusicReducer : MusicReducer
     }
 )
 
