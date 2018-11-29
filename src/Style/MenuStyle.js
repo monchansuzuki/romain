@@ -21,6 +21,7 @@ export const MenuContainer = styled.nav`
       flex-direction: row;
       top: 0;
       position: relative;
+      padding: 0% 0 5vh 0;
     }
     
  

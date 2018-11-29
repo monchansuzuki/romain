@@ -8,7 +8,6 @@ justify-content: flex-start;
 height: 88vh;
 background-color: rgba(6,6,6,0);
 align-items: center;
-padding-top: 12vh;
     z-index: -1;
     `
 
