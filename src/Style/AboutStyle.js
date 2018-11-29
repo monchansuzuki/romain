@@ -51,4 +51,5 @@ export const Logo= styled.span`
 
 export const Para = styled.p`
     color: white;
+    text-align: left;
     `

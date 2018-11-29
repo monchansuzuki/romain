@@ -36,4 +36,5 @@ export const Box = styled.div`
 export const Para = styled.p`
     color: white;
     padding-top: 1%;
+        text-align: start;
     `

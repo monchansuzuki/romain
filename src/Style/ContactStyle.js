@@ -1,8 +1,16 @@
-import styled from 'styled-components'
+import styled , {keyframes}from 'styled-components'
 import BG from '../img/contact-bg.png'
 import FilledInput from '@material-ui/core/FilledInput';
 import Button from '@material-ui/core/Button';
 
+const Animation = keyframes`
+from{
+transform: scale(1);
+}
+to{
+transform: scale(1.1);
+}
+`
 
 export const Input = styled(FilledInput)`
 width: 100%;
@@ -52,9 +60,10 @@ export const Composite = styled.img`
     position: ${props=>props.isOpen?('absolute'):('static')};
     left: 0;
     right: 0;
-    transition: all 400ms; 
+    transition: all 400ms;
     z-index: 1;
     cursor: pointer;
+    animation :${props=>props.isOpen?('none'):(Animation)} infinite 900ms alternate ;
     
     :hover{
     transform: scale(1.1);
