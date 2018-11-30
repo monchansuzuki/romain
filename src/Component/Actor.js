@@ -36,8 +36,7 @@ class Actor extends Component{
         <Banner>
             <VideoVimeo video={292412888}
                         autoplay={false}
-                        width={this.getWindowWidth()-40}
-                        height={this.getWindowHeight()}
+                        width={this.getWindowWidth()*0.8}
             />
 
             <Indice>see more</Indice>

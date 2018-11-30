@@ -28,6 +28,7 @@ export const ContactContainer = styled.section`
     background-position: center;   
     display: flex;
     flex-direction: column;
+    z-index: 5;
     align-items: center;
     justify-content: center;
     @media only screen and (min-width: 1280px){
@@ -56,9 +57,11 @@ export const Tittle = styled.h2`
     margin-bottom: 4%;
     `
 export const Composite = styled.img`
-    width: ${props=>props.isOpen?('100vw'):('15vw')};
+    width: ${props=>props.isOpen?('90vw'):('10vw')};
+    height: ${props=>props.isOpen?('auto'):('10vw')};;
     position: ${props=>props.isOpen?('absolute'):('static')};
-    left: 0;
+    left: 5vw;
+    top: 15vh;
     right: 0;
     transition: all 400ms;
     z-index: 1;

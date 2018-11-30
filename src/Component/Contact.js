@@ -12,28 +12,27 @@ const Contact = (props) => {
     return (
         <ContactContainer>
             <Box>
+                <div className='title'>
                 <Tittle>Contact me</Tittle>
                 <Composite src={CompositeImage} onClick={props.HandleOpen} isOpen={props.Contact.open}/>
-                <Form>
+                </div>
+                <Form action="mailto:romainpro.danna@gmail.com" method="post" enctype="text/plain">
                     <Input
                     type="email"
+                    name='MAIL'
                     placeholder="Email"
                     margin="dense"
                     fullWidth={true}/>
-                    <Input
-                        type="email"
-                        placeholder="Write your message"
-                        margin="dense"
-                        label="Multiline"
-                        multiline
-                        fullWidth={true}
-                        rows="4"
-                        variant="outlined"
-                        className="input"
+                    <textarea
+                        name='MESSAGE'
+                        className='text-area'
+                        placeholder='Write your message'
+
                     />
                     <Btn
                         color="primary"
                         variant="contained"
+                        type='submit'
                         >
                         <Icon >send</Icon>
                     </Btn>
