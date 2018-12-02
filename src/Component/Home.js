@@ -15,6 +15,7 @@ const Home = (props) => {
                 <Langue onClick={props.Toogle}><img src={Eng}/>English</Langue>
             )}
         <Banner>
+
             <WelcomText>{props.Langue.isEng?(props.Langue.homeEnglishText):(props.Langue.homeJapText)}</WelcomText>
         </Banner>
             <Footer/>

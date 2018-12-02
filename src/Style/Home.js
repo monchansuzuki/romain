@@ -42,12 +42,23 @@ export const WelcomText = styled.p`
  
     `
 
-export const Langue = styled.span`
-    color: black;
-    display: flex;
+export const Langue = styled.div`
+     color: black;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
     align-content: center;
     height: 5vh;
-    width: 90vw;
+    position: relative;
+    left: auto;
+    padding: 1%;
+    right: 0;
+    /* width: 25%; */
+    bottom: 58%;
+    border-radius: 5px;
+    width: 25%;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
     cursor: pointer;
     :hover{

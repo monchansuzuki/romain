@@ -3,7 +3,9 @@ import Bg from '../img/about-me-bg.png'
 
 export const AboutContainer = styled.section`
     background-image: url(${Bg});
-    padding: 5% 0;
+    padding-bottom: 5%;
+            padding-top: 1vh;
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,9 +33,10 @@ export const Box = styled.div`
     }
 `
 
-export const Logo= styled.span`
+export const Logo= styled.div`
     display: flex;
     align-items: center;
+    color: white;
     right: 5vw;
     cursor: pointer;
     width: 80vw;
@@ -52,4 +55,5 @@ export const Logo= styled.span`
 export const Para = styled.p`
     color: white;
     text-align: left;
+        margin: 2%;
     `
