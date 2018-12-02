@@ -48,23 +48,28 @@ export const Langue = styled.div`
     -ms-flex-line-pack: center;
     align-content: center;
     height: 5vh;
-    position: relative;
     left: auto;
     padding: 1%;
-    right: 0;
-    /* width: 25%; */
-    bottom: 58%;
-    border-radius: 5px;
-    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    left: auto;
+    /* padding: 1%; */
+    color: black;
+    right: 10vw;
+    top: 22vh;    border-radius: 5px;
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
+        width: 90%;
+
     cursor: pointer;
     :hover{
     color: gold;
     }
         @media only screen and (min-width: 1280px){
         margin-top: 5vh;
+            position: absolute;
+
 }
     `
