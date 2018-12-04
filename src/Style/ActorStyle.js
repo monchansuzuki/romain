@@ -19,7 +19,6 @@ export const Banner = styled.section`
     background-size: contain;
     height: 90vh;
     overflow: auto;
-    padding-top: 12vh;
     `
 
 export const VideoVimeo = styled(Vimeo)`
@@ -44,7 +43,6 @@ export const Indice = styled.p`
 
 export const Section = styled.div`
     height: 88vh;
-    margin-top: 12vh;
     display: flex;
     flex-direction: column;
     align-items: center;

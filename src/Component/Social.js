@@ -5,7 +5,7 @@ import SC from '../img/soundcloud-logo.png'
 import styled from 'styled-components'
 
 const Nav = styled.footer`
-    height: 10vh;
+    height: 8vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -18,9 +18,7 @@ const Nav = styled.footer`
     align-items: center;
     justify-content: space-around;
     bottom: 0;
-    width: 100%;
-    padding-top: 1vh;
-    padding-bottom: 1vh;   
+    width: 100%;   
     } 
 `
 

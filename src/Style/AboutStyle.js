@@ -27,7 +27,6 @@ export const Box = styled.div`
     flex-direction: column;
     justify-content: space-around;
     @media only screen and (min-width: 1280px){
-    height: 51vh;
     width: 58vw;
     padding: 1%;
     }

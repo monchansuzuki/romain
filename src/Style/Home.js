@@ -35,7 +35,7 @@ export const WelcomText = styled.p`
       left: 63%;
       padding: 1%;
       right: 0;
-      width: 25%;
+      width: 22%;
       bottom: 40%;
       border-radius: 5px;
       }
