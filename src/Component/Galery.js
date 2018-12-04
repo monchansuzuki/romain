@@ -15,7 +15,6 @@ const GalleryContainer = styled.div`
     margin: 2%;
 `
 const NewImage = styled(Image)`
-    max-width: 100%;
     height: 100%;
     padding: 1%;
 `
