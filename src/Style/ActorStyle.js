@@ -42,7 +42,6 @@ export const Indice = styled.p`
     `
 
 export const Section = styled.div`
-    height: 88vh;
     display: flex;
     flex-direction: column;
     align-items: center;
