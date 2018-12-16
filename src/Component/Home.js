@@ -18,7 +18,6 @@ const Home = (props) => {
 
             <WelcomText>{props.Langue.isEng?(props.Langue.homeEnglishText):(props.Langue.homeJapText)}</WelcomText>
         </Banner>
-            <Footer/>
         </div>
     );
 };
