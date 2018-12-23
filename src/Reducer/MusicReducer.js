@@ -19,7 +19,7 @@ const initState = {
         ' 現在は多くの歌手やミュージシャンとのコラボレーション、スタジオレコーディング、公演、Cubaseを使ったオーケストラサウンドトラック(テレビ、映画、PV、CM用)の制作に取り組んでいます。',
         '映画やゲームのサウンドトラックを聞く中で、彼は以下の映画サウンドトラック制作者に影響を受けました: Hans Zimmer, Harry Gregson Williams, John Powell, Alan Silvestri, James Newton Howard ,Trevor Rabin など。'
     ],
-    homeEnglishText : 'Welcome, here you will see my work as a profesionel model , actor and even music composer. Feel free to contact me.',
+    homeEnglishText : 'Welcome, here you will see my work as a professional model , actor and even music composer. Feel free to contact me.',
     homeJapText : 'ここではモデル、俳優、作曲家としての作品を見ることができます。\n' +
         '気軽にお問い合わせください。'
 }
