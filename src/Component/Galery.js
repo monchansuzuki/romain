@@ -11,7 +11,7 @@ background-color: rgba(246,255,254,0);
     flex-direction: column;
     overflow-x: hidden;
     width: 100%;
-    height: 100vw;
+    height: 80vh;
     margin: 2%;
 @media only screen and (min-width: 1280px){
     flex-direction: row;
